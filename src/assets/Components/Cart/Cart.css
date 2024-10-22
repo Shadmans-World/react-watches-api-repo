@@ -1,0 +1,18 @@
+.cart-container{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.cart-container img{
+    width: 100px;
+    border: 2px solid brown;
+    padding: 15px;
+}
+
+.cart-container button:hover{
+    background-color: red;
+    color: white;
+}

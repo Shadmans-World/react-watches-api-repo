@@ -1,0 +1,17 @@
+.product{
+    border: 2px solid blueviolet;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    padding: 15px;
+   
+}
+
+.product img{
+    width: 200px;
+}
+
+.product button:hover{
+    background-color: aquamarine;
+    color: black;
+    border-radius: 30%;
+}
